@@ -19,11 +19,11 @@ int main()
 }
 
 void moveZeroes(int nums[], int numsSize){
-    int start=0;
+    int index=0;
     for(int i = 0; i < numsSize; ++i){
         if(nums[i])
-            nums[start++] = nums[i];
+            nums[index++] = nums[i];
     }
-    while(start < numsSize)
-        nums[start++] = 0;
+    while(index < numsSize)
+        nums[index++] = 0;
 }
