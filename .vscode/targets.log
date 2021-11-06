@@ -1,0 +1,300 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Oct 01 20:45:47 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/Learn_Coding
+# default
+SHELL := sh.exe
+# environment
+VIM = C:\Program Files (x86)\Vim\vim82
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-tw","availableLanguages":{"*":"zh-tw"},"_languagePackId":"d2994f2533d3dfc36867db53dedfefe0.zh-tw","_translationsConfigFile":"C:\\Users\\JEFF\\AppData\\Roaming\\Code\\clp\\d2994f2533d3dfc36867db53dedfefe0.zh-tw\\tcf.json","_cacheRoot":"C:\\Users\\JEFF\\AppData\\Roaming\\Code\\clp\\d2994f2533d3dfc36867db53dedfefe0.zh-tw","_resol 
+vedLanguagePackCoreLocation":"C:\\Users\\JEFF\\AppData\\Roaming\\Code\\clp\\d2994f2533d3dfc36867db53dedfefe0.zh-tw\\7f6ab5485bbc008386c4386d08766667e155244e","_corruptedFile":"C:\\Users\\JEFF\\AppData\\Roaming\\Code\\clp\\d2994f2533d3dfc36867db53dedfefe0.zh-tw\\corrupted.info","_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\JEFF\OneDrive
+# environment
+MAVEN_HOME = C:\Program Files\Java\apache-maven-3.6.3
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\JEFF\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-4a1dc25f-17c3-4978-9c1e-036f88c4d37f-sock
+# environment
+VSCODE_CWD = C:\Users\JEFF\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Users\JEFF\AppData\Local\Programs\Python\Python38;C:\Users\JEFF\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\opencv\build\x64\vc15\bin;C:\Python\Python37\Scripts\;C:\Python\Python37\;C:\Users\JEFF\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\heroku\bin;C:\Users\JEFF\AppData\Local\Microsoft\WindowsApps;C:\Users\JEFF\AppData\Local\Programs\Microsoft VS Code\bin;C:\opencv\build\x64\vc15\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\JEFF
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3920_MHULAXXENQLRACSA
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-GFM9MUB
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = JEFF
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\JEFF\AppData\Roaming\ 
+Code\CachedData\7f6ab5485bbc008386c4386d08766667e155244e
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-GFM9MUB
+# environment
+ONEDRIVECONSUMER = C:\Users\JEFF\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-GFM9MUB
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-12.0.1
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\JEFF\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $ 
+(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c6bf99e85a189dd4432e3114493d0f9c-1.60.2-main-sock
+# environment
+HOMEPATH = \Users\JEFF
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(p 
+atsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\JEFF\AppData\Roaming
+# environment
+TEMP = C:\Users\JEFF\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# default
+.INCLUDE_DIRS = C:/MinGW/include 
+
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 3920
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-GFM9MUB
+# variable set hash-table stats:
+# Load=95/1024=9%, Rehash=0, Collisions=11/111=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\JEFF\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/JEFF/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1632408486): 4 files, no impossibilities.
+# C:\Python\Python37\ (key C:/Python/Python37/, mtime 1633091764): 17 files, no impossibilities.
+# . (key d:/Learn_Coding, mtime 1633091541): 14 files, no impossibilities.
+# C:\Python\Python37\Scripts\ (key C:/Python/Python37/Scripts/, mtime 1633091769): 7 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1626611380): 8 files, no impossibilities.
+# C:\Users\JEFF\AppData\Local\Programs\Python\Python38 (key C:/Users/JEFF/AppData/Local/Programs/Python/Pyth 
+on38, mtime 1615041167): 18 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1631201895): 59 files, no impossibilities.
+# C:\Program Files\heroku\bin: could not be stat'd.
+# C:\Program Files\Java\jdk-12.0.1\bin (key C:/Program Files/Java/jdk-12.0.1/bin, mtime 1559054407): 124 files, no impossibilities.
+# C:\Users\JEFF\AppData\Local\Programs\Python\Python38\Scripts (key C:/Users/JEFF/AppData/Local/Programs/Python/Python38/Scripts, mtime 1626241907): 13 files, no impossibilities.
+# C:\Users\ 
+JEFF\AppData\Local\Microsoft\WindowsApps (key C:/Users/JEFF/AppData/Local/Microsoft/WindowsApps, mtime 1633083657): 27 files, no impossibilities.
+# C:\opencv\build\x64\vc15\bin (key C:/opencv/build/x64/vc15/bin, mtime 1631843332): 15 files, no impossibilities.
+
+# 306 files, no impossibilities in 12 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked 
+.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 285 / storage = 5020 B / avg = 17 B
+# current buf: size = 8174 B / used = 5020 B / count = 285 / avg = 17 B
+
+# strcache performance: lookups = 326 / hit rate = 12%
+# hash-table stats:
+# Load=285/8192=3%, Rehash=0, Collisions=22/326=7%
+# Finished Make data base on Fri Oct 01 20:45:47 2021
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+ 
