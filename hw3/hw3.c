@@ -13,7 +13,7 @@ void moveZeroes(volatile int nums[], volatile int numsSize){
 
 volatile int main()
 {    
-    volatile int nums[] = {0,1,0,3,12};
+    volatile int nums[] = {0, 1, 0, 3, 12};
     volatile int numsSize = 5;
     printf("\nBefore move zeroes = ");
     for(volatile int i = 0; i < numsSize; ++i){
