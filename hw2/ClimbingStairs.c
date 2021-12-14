@@ -28,37 +28,18 @@ void _start()
     }
 
     volatile char *tx = (volatile char *)0x40002000;
-    const char *str = "There are "; //The largest number in the array is &#34;;
+    const char *str = "There are ";
 
     while (*str)
     {
         *tx = *str;
         str++;
     }
-    
-    int temp = Fib[n];
-    char buffer[15];
-    int i=0;
-    for(;temp; ++i){
-        buffer[i] = mod10(temp);
-        unsigned q, r;
-        q = (temp >> 1) + (temp >> 2);
-        q = q + (q >> 4);
-        q = q + (q >> 8);
-        q = q + (q >> 16);
-        q = q >> 3;
-        r = temp - (((q << 2) + q) << 1);
-        temp = q + (r > 9);
-    }
-    while(i--){
-        *tx = (char)(buffer[i]+'0');
-    }
-    // for (int i = 31; i >= 0; i--)
-    //     if ((Fib[n] >> i) & 1)
-    //         *tx = '1';
-    //     else
-    //         *tx = '0';
-
+    for (int i = 31; i >= 0; i--)
+        if ((Fib[n] >> i) & 1)
+            *tx = '1';
+        else
+            *tx = '0';
     const char *str2 = " ways to climb to the top.";
     while (*str2)
     {
